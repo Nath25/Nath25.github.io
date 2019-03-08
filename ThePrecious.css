@@ -1,0 +1,50 @@
+#txtFellows
+{
+    font-size: 30px;
+}
+.badge
+{
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+
+.reward {
+    position:absolute;
+    opacity: 0.8;
+    z-index:1;
+    border-radius: 20px;
+    top: 30px;
+    left: 10px;
+    font-size: 250%;
+    text-align: center;
+    width: 300px;
+    color : white;
+}
+
+.cible{
+    opacity:0.6;
+	z-index:1;
+}
+.reward span
+{
+	color:orange;
+}
+
+.card:hover .cible{
+	opacity:1;
+	z-index:2;
+}
+.card:hover .reward {
+	display:none;
+}
+
+.trait_dessus
+{
+    border-top: 2px solid #000;
+    width : 1110px;
+}
+
+#img_info1{
+    width: 75%;
+}
